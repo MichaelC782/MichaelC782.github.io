@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Michael Crumrine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Sarina&display=swap" rel="stylesheet">
+  <style>
+.circle{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    position:relative;
+    background-image: linear-gradient( rgb(95, 201, 237),rgb(240, 255, 80),yellow);
+}
+.eye{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 100px;
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    left: 40px;
+    top: 60px;
+    transform: rotate(20deg); /* Equal to rotateZ(20deg) */
+}
+
+.eye2{
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 100px;
+    width: 80px;
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    left: 120px;
+    bottom: 42px;
+    transform: rotate(140deg); /* Equal to rotateZ(140deg) */
+}
+.mouth2{
+    border: 2px solid rgb(150, 75, 0);
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(150, 75, 0);
+    left: 125px;
+    bottom: 426px;
+    border-radius: 50%;
+}
+
+.mouth{
+    border: 2px solid rgb(150, 75, 0);
+    height: 70px;
+    width: 60px;
+    display: inline-block;
+    position: fixed;
+    background-color: rgb(150, 75, 0);
+    left: 100px;
+    bottom: 80px;
+    transform: rotate(20deg); /* Equal to rotateZ(20deg) */
+    z-index: 9;
+}
+.mouth3{
+    border: 2px solid rgb(150, 75, 0);
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(150, 75, 0);
+    left: -2px;
+    bottom: 0px;
+    top: 65px;
+    border-radius: 50%;
+}
+.arm1{
+    position: relative;
+    height: 170px;
+    width: 125px;
+    right: 60px;
+    bottom: 20px;
+}
+.arm2{
+    position: relative;
+    height: 170px;
+    width: 125px;
+    left: 60px;
+    bottom: 99px;
+}
+h1{
+
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  color: green;
+}
+h2{
+
+font-family: "Potta One", system-ui;
+font-weight: 400;
+font-style: normal;
+
+color: green;
+}
+body{
+  background-image: linear-gradient(lightgray,rgb(0, 255, 208));
+}
+
+</style>
+
+</head>
+<body>
+    <div class="circle">
+      <div class="eye">
+        <div class="eye2">
+          <div class="mouth"></div>
+        </div>
+      </div>
+    </div>
+    <div class="mouth2">
+      <div class="mouth3">
+        <div class="arm1"><img class="arm1" src="emojiarm.png" alt="arm">
+          <div class="arm2"><img class="arm2" src="arm2.png" alt="arm2">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1><span style="color: red;">Shocked</span></h1>
+<h2>Emoji</h2>
+</body>
+</html>
